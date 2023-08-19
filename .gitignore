@@ -1,3 +1,25 @@
+## Added by Sirin to ignore VS proj and build files
+# Binaries
+**/bin/*
+**/bin-int/*
+Intermediates/
+
+# Log files
+*.log
+
+# Directories
+
+# IDE files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+*.DotSettings.user
+
+### End of Added by Sirin
+
 ## OSX artifacts
 .DS_Store
 
